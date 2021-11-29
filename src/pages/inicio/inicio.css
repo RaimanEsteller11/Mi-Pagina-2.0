@@ -1,0 +1,92 @@
+
+body {
+    padding: 0px;
+    margin: auto;
+    background: url("../../assets/img/fondo.png");
+}
+
+.header {
+    background-color: rgb(8, 16, 26);
+    color: white;
+    display: flex;
+    padding: 1px;
+}
+
+.col-4 {
+    width: 33%;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px; 
+    padding: 8px;
+}
+
+.navegador b{
+    font-size: 21px;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.navegador a:hover {
+    color: rgb(92, 81, 81);
+}
+
+.panel {
+    background-color: rgb(4, 3, 7);
+    width: 900px;
+    height: 350px;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 0, 0);
+    margin: 70px 250px;
+    padding: 6%;
+    opacity: 0.9;
+}
+
+.panel p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+b {
+    font-size: 42px;
+}
+
+h1 b{
+    color: white;
+}
+
+li{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.imagen1 {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imagen2 {
+    width: 250px;
+}
